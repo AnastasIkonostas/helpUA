@@ -5,7 +5,6 @@
       <v-text-field
         v-model="user.firstname"
         :rules="rules.nameRules"
-        :counter="10"
         label="First name"
         variant="outlined"
         required
@@ -14,7 +13,6 @@
       <v-text-field
         v-model="user.lastname"
         :rules="rules.nameRules"
-        :counter="10"
         label="Last name"
         variant="outlined"
         required
